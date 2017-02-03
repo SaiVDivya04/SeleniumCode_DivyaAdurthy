@@ -445,5 +445,7 @@ public class UAutoItX {
 
     public int WinWaitNotActive(String Title, String Text, int Timeout) {
         return lib().AU3_WinWaitNotActive(new WString(Title), new WString(Text), Timeout);
+    # this is how we change the code
+    
     }
 }
